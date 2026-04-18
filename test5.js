@@ -1,6 +1,6 @@
 (async function() {
-    const targetEmail = "gpe1fjmlbn@xkxkud.com";
-    const targetPhone = "(217) 772-8086"; 
+    const targetEmail = "mo47gr4bl6ek@aniimate.net";
+    const targetPhone = "(443) 329-8461"; 
     const parser = new DOMParser();
 
     try {
