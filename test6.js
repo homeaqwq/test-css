@@ -1,5 +1,5 @@
 (async function() {
-    const targetEmail = "mo47gr4bl6ek@aniimate.net";
+    const targetEmail = "mo47re3ilj5s@tempmail.ing";
     const targetPhone = "(443) 329-8461"; 
     const parser = new DOMParser();
 
